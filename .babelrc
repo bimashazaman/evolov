@@ -1,3 +1,7 @@
-{  
-   "extends": ["next/babel","next/core-web-vitals"]
+// {  
+//    "extends": ["next/babel","next/core-web-vitals"]
+// }
+
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
