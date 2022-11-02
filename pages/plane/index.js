@@ -1,6 +1,6 @@
 import React from "react";
 import Search from "../../components/Search/Search";
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
 import ShowSubCategories from "../../components/Plane/ShowSubCategories";
 import Recently_published from "../../components/Plane/recently_published";
 import Link from "next/link";
