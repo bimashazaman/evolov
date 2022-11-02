@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { RangeSlider, Row, Col, InputGroup, InputNumber } from "rsuite";
 import "rsuite/dist/rsuite.min.css";
-
+import React from "react";
 const Price = ({ setPriceValue }) => {
   const [value, setValue] = useState([0, 1000000]);
 
