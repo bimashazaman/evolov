@@ -1,6 +1,6 @@
 
 import { lazy, Suspense } from "react";
-const Layout = lazy(() => import('../components/layout'));
+const Layout = lazy(() => import('../components/Layout'));
 const HomeCategory = lazy(() => import('../components/Categories/HomeCategory'));
 const Trending = lazy(() => import('../components/Categories/Trending'));
 import { StrictMode } from "react";

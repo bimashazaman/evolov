@@ -6,7 +6,7 @@ import Image from "next/image";
 import FilterPhone from "../../../components/Market/Art/FilterPhone";
 import { Suspense } from "react";
 import SubSearch from "../../../components/Search/SubSearch";
-import Layout from "../../../components/layout";
+import Layout from "../../../components/Layout";
 import { Arts } from "../../../data/market/data";
 import Breadcrumb from "../../../components/Market/Art/Breadcrumb";
 
