@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Price from "./Price";
+import Price from "./price";
 import "rsuite/dist/rsuite.min.css";
 import { Formik } from "formik";
 
