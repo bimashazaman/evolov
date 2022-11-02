@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+@import "rsuite/dist/rsuite.css";
+
+
+
+@layer utilities {
+    .placeholder-style::placeholder {
+       padding: 5px 27px;
+       margin: 5px;
+    }
+  }
+
+
+  body {
+   background-color: #F9FAFF;
+  }
+
+  a {
+   text-decoration: none;
+  }
+
