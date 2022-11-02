@@ -3,13 +3,13 @@ import React from "react";
 import ThumbsUp from "../../../components/Favorite/ThumbsUp";
 
 import Image from "next/image";
-import FilterPhone from "../../../components/Plane/Buy/FilterPhone";
+import FilterPhone from "../../../components/plane/Buy/FilterPhone";
 import { Suspense } from "react";
 import SubSearch from "../../../components/Search/SubSearch";
 import Layout from "../../../components/Layout";
 import { Arts } from "../../../data/market/data";
-import Breadcrumb from "../../../components/Plane/Buy/Breadcrumb";
-import Filters from "../../../components/Plane/Buy/Filters";
+import Breadcrumb from "../../../components/plane/Buy/Breadcrumb";
+import Filters from "../../../components/plane/Buy/Filters";
 
 const myLoader = ({ src, width, quality }) => {
   return `https://images.pexels.com/${src}?w=${width}&q=${quality || 75}`;

@@ -1,8 +1,8 @@
 import React from "react";
 import Search from "../../components/Search/Search";
 import Layout from "../../components/Layout";
-import ShowSubCategories from "../../components/Plane/ShowSubCategories";
-import Recently_published from "../../components/Plane/recently_published";
+import ShowSubCategories from "../../components/plane/ShowSubCategories";
+import Recently_published from "../../components/plane/recently_published";
 import Link from "next/link";
 import Image from "next/image";
 import { myLoader } from "../../components/Favorite/Loader";
